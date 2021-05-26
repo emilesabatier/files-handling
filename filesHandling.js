@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 /**
- * Promisify readFile function from fs
+ * Promisify readFile function from file system library (fs)
  * @author Emile Sabatier <contact@emilesabatier.com>
  * @param {string, URL} path - Path to the file you want to read
  * @return {void}
@@ -16,7 +16,7 @@ readFile =( path )=>
     )
 
 /**
- * Promisify writeFile function from fs
+ * Promisify writeFile function from file system library (fs)
  * @author Emile Sabatier <contact@emilesabatier.com>
  * @param {string, URL} path - Path to where you want to write the file
  * @param {string, Buffer}  data - Data you want to write into a new file
